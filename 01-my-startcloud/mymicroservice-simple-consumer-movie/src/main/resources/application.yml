@@ -1,0 +1,4 @@
+server: 
+  port: 8010
+user: 
+  userServiceUrl: http://localhost:8000/
