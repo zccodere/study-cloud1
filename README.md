@@ -13,3 +13,9 @@
 ### 2017-2017071701：01-teach-startcloud<br>
 第三章《开始使用SpringCloud实战微服务》教学源码
 
+### 2017-2017071801：02-my-eureka<br>
+第四章《微服务注册与发现》学习源码
+<p>
+编写Eureka Server、将微服务注册到Eureka Server上、Eureka Server的高可用、
+为Eureka Server添加用户认证、Eureka的元数据
+</p>
