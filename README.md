@@ -19,3 +19,6 @@
 编写Eureka Server、将微服务注册到Eureka Server上、Eureka Server的高可用、
 为Eureka Server添加用户认证、Eureka的元数据
 </p>
+
+### 2017-2017071801：02-teach-eureka<br>
+第四章《微服务注册与发现》教学源码
