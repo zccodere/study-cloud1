@@ -1,0 +1,9 @@
+server: 
+  port: 8010
+spring: 
+  application: 
+    name: mymicroservice-consumer-movie # 指定注册到Eureka Server上的应用名称
+mymicroservice-provider-user: 
+  ribbon: 
+    listOfServers: localhost:8000,localhost:8001
+

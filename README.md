@@ -22,3 +22,10 @@
 
 ### 2017-2017071801：02-teach-eureka<br>
 第四章《微服务注册与发现》教学源码
+
+### 2017-2017120401：03-my-ribbon<br>
+第五章《使用Ribbon实现客户端侧负载均衡》学习源码
+<p>
+为服务消费者整合Ribbon、使用Java代码自定义Ribbon配置、
+使用属性自定义Ribbon配置、脱离Rureka使用Ribbon
+</p>
