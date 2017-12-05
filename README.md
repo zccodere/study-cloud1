@@ -38,3 +38,6 @@
 <p>
 为服务消费者整合Feign、自定义Feign配置、手动创建Feign、Feign的日志
 </p>
+
+### 2017-2017120501：04-teach-feign<br>
+第六章《使用Feign实现声明式REST调用》教学源码
