@@ -49,3 +49,6 @@
 使用hystrix dashboard可视化监控数据、使用Turbine监控多个微服务、使用消息中间件收集数据
 </p>
 
+### 2017-2017120701：05-teach-hystrix<br>
+第七章《使用Hystrix实现微服务的容错处理》教学源码
+
