@@ -1,0 +1,18 @@
+server: 
+  port: 8010
+spring: 
+  application: 
+    name: mymicroservice-consumer-movie # 指定注册到Eureka Server上的应用名称
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: http://localhost:8761/eureka/
+  instance: 
+    # 将自己的IP注册到Eureka Server。
+    # 默认为false，表示注册微服务所在操作系统的hostname到Eureka Server。
+    prefer-ip-address: true

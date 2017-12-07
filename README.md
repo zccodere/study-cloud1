@@ -41,3 +41,11 @@
 
 ### 2017-2017120501：04-teach-feign<br>
 第六章《使用Feign实现声明式REST调用》教学源码
+
+### 2017-2017120701：05-my-hystrix<br>
+第七章《使用Hystrix实现微服务的容错处理》学习源码
+<p>
+为Feign添加回退、通过Fallback Factory检查回退原因、hystrix监控、
+使用hystrix dashboard可视化监控数据、使用Turbine监控多个微服务、使用消息中间件收集数据
+</p>
+
