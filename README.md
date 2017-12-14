@@ -68,3 +68,6 @@
 编写Config Server、编写Config Client、配置内容对称加密、使用/refresh端点手动刷新配置、
 实现自动刷新、Spring Cloud Config的用户认证
 </p>
+
+### 2017-2017121401：07-teach-config<br>
+第九章《使用Spring Cloud Config统一管理微服务配置》教学源码
