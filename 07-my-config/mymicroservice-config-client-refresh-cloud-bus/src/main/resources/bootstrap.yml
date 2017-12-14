@@ -1,0 +1,16 @@
+spring:
+  application:
+    # 对应config server所获取的配置文件的{application}
+    name: mymicroservice-foo
+  cloud:
+    config:
+      uri: http://127.0.0.1:8080
+      # 对应config server所获取的配置文件中的{profile}
+      profile: dev
+      # 指定Git仓库的分支，对应config server所获取的配置文件的{label}
+      label: master
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest

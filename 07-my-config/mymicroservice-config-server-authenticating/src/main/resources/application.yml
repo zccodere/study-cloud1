@@ -1,0 +1,24 @@
+server: 
+  port: 8080
+spring: 
+  application: 
+    name: mymicroservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          # 配置Git仓库的地址
+          uri: 
+          # Git仓库的账号
+          username: 
+          # Git仓库的密码
+          password: 
+security:
+  basic:
+    # 开启基于HTTP basic的认证
+    enabled: true
+  user:
+    # 登录的账号
+    name: user
+    # 登录的密码
+    password: password123
