@@ -1,0 +1,28 @@
+server: 
+  port: 8000
+spring: 
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  sleuth: 
+    sampler: 
+      percentage: 1.0
+  application:
+    name: mymicroservice-provider-user
+  jpa: 
+    generate-ddl: false
+    show-sql: true
+    hibernate: 
+      ddl-auto: none
+  datasource:                       # 指定数据源
+    platform: h2                    # 指定数据源类型
+    schema: classpath:schema.sql    # 制定h2数据库的建表脚本
+    data: classpath:data.sql        # 制定h2数据库的数据脚本
+logging:                            # 配置日志级别，让hibernate打印执行的SQL
+  level: 
+    root: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG
+      
+      

@@ -71,3 +71,10 @@
 
 ### 2017-2017121401：07-teach-config<br>
 第九章《使用Spring Cloud Config统一管理微服务配置》教学源码
+
+### 2017-2017121801：08-my-trace<br>
+第十章《使用Spring Cloud Sleuth实现微服务跟踪》学习源码
+<p>
+整合Spring Cloud Sleuth、Spring Cloud Sleuth与ELK配合使用、
+Spring Cloud Sleuth与Zipkin配合使用、
+</p>
