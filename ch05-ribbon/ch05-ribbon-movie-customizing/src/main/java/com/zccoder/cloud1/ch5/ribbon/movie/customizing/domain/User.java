@@ -1,4 +1,4 @@
-package com.zccoder.cloud.movie.domain;
+package com.zccoder.cloud1.ch5.ribbon.movie.customizing.domain;
 
 import java.math.BigDecimal;
 
