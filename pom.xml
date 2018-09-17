@@ -13,18 +13,7 @@
     <description>《SpringCloud与Docker微服务架构实战》学习项目源码</description>
 
     <modules>
-        <!--<module>ch01-base</module>-->
-        <!--<module>ch02-usual</module>-->
-        <!--<module>ch03-higher</module>-->
-        <!--<module>ch04-mvc</module>-->
-        <!--<module>ch05-boot</module>-->
-        <!--<module>ch06-core</module>-->
-        <!--<module>ch07-web</module>-->
-        <!--<module>ch08-data</module>-->
-        <!--<module>ch09-enterprise</module>-->
-        <!--<module>ch10-deploy</module>-->
-        <!--<module>ch11-monitor</module>-->
-        <!--<module>ch12-cloud</module>-->
+        <module>ch03-start</module>
     </modules>
 
     <build>
