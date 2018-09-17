@@ -1,0 +1,36 @@
+server: 
+  port: 8000
+spring: 
+  application: 
+    name: mymicroservice-provider-user # 指定注册到Eureka Server上的应用名称
+  jpa: 
+    generate-ddl: false
+    show-sql: true
+    hibernate: 
+      ddl-auto: none
+  datasource:                       # 指定数据源
+    platform: h2                    # 指定数据源类型
+    schema: classpath:schema.sql    # 指定h2数据库的建表脚本
+    data: classpath:data.sql        # 指定h2数据库的数据脚本
+logging:                            # 配置日志级别，让hibernate打印执行的SQL
+  level: 
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasiceXTRACTOR: TRACE
+info: 
+  app: 
+    name: '@project.artifactId@'
+    encoding: '@project.build.sourceEncoding@'
+    java:
+      source: ${java.version}
+      target: ${java.version}
+eureka: 
+  client: 
+    serviceUrl: 
+      defaultZone: http://localhost:8761/eureka/,http://localhost:8762/eureka/
+  instance: 
+    # 将自己的IP注册到Eureka Server。
+    # 默认为false，表示注册微服务所在操作系统的hostname到Eureka Server。
+    prefer-ip-address: true
+      

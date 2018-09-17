@@ -12,18 +12,12 @@
 编写服务提供者、编写服务消费者、为项目整合Spring Boot Actuator
 </p>
 
-### 2017-2017071701：01-teach-startcloud<br>
-第三章《开始使用SpringCloud实战微服务》教学源码
-
-### 2017-2017071801：02-my-eureka<br>
+### 2017-2017071801：02-ch04-eureka<br>
 第四章《微服务注册与发现》学习源码
 <p>
 编写Eureka Server、将微服务注册到Eureka Server上、Eureka Server的高可用、
 为Eureka Server添加用户认证、Eureka的元数据
 </p>
-
-### 2017-2017071801：02-teach-eureka<br>
-第四章《微服务注册与发现》教学源码
 
 ### 2017-2017120401：03-my-ribbon<br>
 第五章《使用Ribbon实现客户端侧负载均衡》学习源码
