@@ -32,15 +32,12 @@
 为服务消费者整合Feign、自定义Feign配置、手动创建Feign、Feign的日志
 </p>
 
-### 2017-2017120701：05-my-hystrix<br>
+### 2017-2017120701：05-ch07-hystrix<br>
 第七章《使用Hystrix实现微服务的容错处理》学习源码
 <p>
 为Feign添加回退、通过Fallback Factory检查回退原因、hystrix监控、
 使用hystrix dashboard可视化监控数据、使用Turbine监控多个微服务、使用消息中间件收集数据
 </p>
-
-### 2017-2017120701：05-teach-hystrix<br>
-第七章《使用Hystrix实现微服务的容错处理》教学源码
 
 ### 2017-2017121101：06-my-zuul<br>
 第八章《使用Zuul构建微服务网关》学习源码
