@@ -16,6 +16,7 @@
         <module>ch03-start</module>
         <module>ch04-eureka</module>
         <module>ch05-ribbon</module>
+        <module>ch06-feign</module>
     </modules>
 
     <build>

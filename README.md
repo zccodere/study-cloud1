@@ -26,14 +26,11 @@
 使用属性自定义Ribbon配置、脱离Rureka使用Ribbon
 </p>
 
-### 2017-2017120501：04-my-feign<br>
+### 2017-2017120501：04-ch06-feign<br>
 第六章《使用Feign实现声明式REST调用》学习源码
 <p>
 为服务消费者整合Feign、自定义Feign配置、手动创建Feign、Feign的日志
 </p>
-
-### 2017-2017120501：04-teach-feign<br>
-第六章《使用Feign实现声明式REST调用》教学源码
 
 ### 2017-2017120701：05-my-hystrix<br>
 第七章《使用Hystrix实现微服务的容错处理》学习源码
