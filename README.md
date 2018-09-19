@@ -2,8 +2,6 @@
 
 《SpringCloud与Docker微服务架构实战》学习项目源码。作者博客地址：http://itmuch.com/
 
-// TODO 重新组织源码 2018/09/30前完成
-
 # 目录 
 
 ### 2017-2017071701：01-ch03-start<br>
@@ -53,12 +51,9 @@
 实现自动刷新、Spring Cloud Config的用户认证
 </p>
 
-### 2017-2017121801：08-my-trace<br>
+### 2017-2017121801：08-ch10-trace<br>
 第十章《使用Spring Cloud Sleuth实现微服务跟踪》学习源码
 <p>
 整合Spring Cloud Sleuth、Spring Cloud Sleuth与ELK配合使用、
 Spring Cloud Sleuth与Zipkin配合使用、
 </p>
-
-### 2017-2017121801：08-teach-trace<br>
-第十章《使用Spring Cloud Sleuth实现微服务跟踪》教学源码
