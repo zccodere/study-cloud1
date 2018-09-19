@@ -19,6 +19,7 @@
         <module>ch06-feign</module>
         <module>ch07-hystrix</module>
         <module>ch08-zuul</module>
+        <module>ch09-config</module>
     </modules>
 
     <build>

@@ -46,15 +46,12 @@
 使用Sidecar整合非JVM微服务、使用Zuul聚合微服务
 </p>
 
-### 2017-2017121401：07-my-config<br>
+### 2017-2017121401：07-ch09-config<br>
 第九章《使用Spring Cloud Config统一管理微服务配置》学习源码
 <p>
 编写Config Server、编写Config Client、配置内容对称加密、使用/refresh端点手动刷新配置、
 实现自动刷新、Spring Cloud Config的用户认证
 </p>
-
-### 2017-2017121401：07-teach-config<br>
-第九章《使用Spring Cloud Config统一管理微服务配置》教学源码
 
 ### 2017-2017121801：08-my-trace<br>
 第十章《使用Spring Cloud Sleuth实现微服务跟踪》学习源码
