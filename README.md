@@ -39,15 +39,12 @@
 使用hystrix dashboard可视化监控数据、使用Turbine监控多个微服务、使用消息中间件收集数据
 </p>
 
-### 2017-2017121101：06-my-zuul<br>
+### 2017-2017121101：06-ch08-zuul<br>
 第八章《使用Zuul构建微服务网关》学习源码
 <p>
 编写Zuul微服务网关、使用Zuul上传文件、编写Zuul过滤器、为Zuul添加回退、
 使用Sidecar整合非JVM微服务、使用Zuul聚合微服务
 </p>
-
-### 2017-2017121101：06-teach-zuul<br>
-第八章《使用Zuul构建微服务网关》教学源码
 
 ### 2017-2017121401：07-my-config<br>
 第九章《使用Spring Cloud Config统一管理微服务配置》学习源码
